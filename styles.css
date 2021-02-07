@@ -1,0 +1,99 @@
+body,html{
+  height: 100%;
+  margin: 0;
+}
+
+.wish {
+
+
+  /*margin-top: 50px;  */
+   margin: 15% auto auto 3%;
+  padding: 0;
+  position: absolute;
+/*  top: 4%; */
+  width: 100%;
+  text-align: center;
+  font-size:  6vw;                /* 4em; */
+  color: red;
+  letter-spacing: 0.1em;
+  text-shadow: 1px 1px #f2a154;
+  font-family: 'Pacifico', cursive;
+  background: -webkit-linear-gradient(#ffff00, #ff1493);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 3s infinite ease-in-out;
+  display: block;
+}
+
+.bg {
+  background-image: url("gifts.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+   margin: 28% auto auto 45%;                    /* 185px; */
+  box-sizing: border-box;
+  border: 3px solid #fbaccc;
+  border-style: ridge;
+  display: block;
+  /*width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 3px;
+  */
+}
+
+h2 {
+  font-size: 5vw;
+  /* 100 % = 16px = 1 em */
+  color: #161d6f;
+  font-family: 'Sacramento', cursive;
+  /* top ->right ->bottom->left */
+}
+
+.h2 {
+  position: absolute;
+  margin: 32% auto auto 32%;
+  display: block;
+/*  margin-left: 700px;
+  margin-top: 225px;   */
+}
+
+.girl {
+  position: absolute;
+  width: 200px;
+  height:200px;
+/*  max-width: 5%;
+  max-height: 5%; */
+  margin: 42% auto auto 44%;
+  vertical-align: middle;
+  display: block;
+}
+.div{
+  height: 30%;
+}
+
+
+.shake {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+/*
+0% { transform: skewX(-15deg); }
+5% { transform: skewX(15deg); }
+10% { transform: skewX(-15deg); }
+15% { transform: skewX(15deg); }
+20% { transform: skewX(0deg); }
+100% { transform: skewX(0deg); }
+
+.div{
+
+}
